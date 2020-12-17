@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinations</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--bootstrap-css-online-end-->
+    
+    <!--favicon-fontawsom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--favicon-fontawsom-end-->
+
+    <!--offline-style-sheet-->
+    <link href="style.css" rel="stylesheet">
+    <!--offline-style-sheet-end-->
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico"/>
+</head>
+<style>
+  body {
+    
+    background-color: white;
+    color: black;
+  
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+</style>
+<body>
+  <script>
+      function myFunctions() {
+         var element = document.body;
+         element.classList.toggle("dark-mode");
+      }
+  </script>
+
+<!--Navbar-start-->
+    
+<div class="navs" style="">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color:rgb(40, 109, 213)">
+      <a class="navbar-brand" href="index.html#home"> <img src="img/company-logo-3.svg" 
+          style="width: 2rem; height: 2rem; color:;" alt=""> <span style="color: white;">Jai Shree Holidays</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+          <i class="fa fa-bars fa-2x" aria-hidden="true" style="color: aliceblue;"></i>
+      </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="color: white;">Home<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item themes">
+              <div class="dropdown show" style="">
+                  <a class="btn btn-primary dropdown-toggle" href="themes.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Themes
+                  </a>
+                
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="adventure.html">Adventure</a>
+                    <a class="dropdown-item" href="cultural.html">Cultural</a>
+                    <a class="dropdown-item" href="cruise.html">Cruise</a>
+                    <a class="dropdown-item" href="eco.html">Eco</a>
+                    <a class="dropdown-item" href="educational.html">Educational</a>
+                    <a class="dropdown-item" href="family.html">Family</a>
+                    <a class="dropdown-item" href="group.html">Group</a>
+                    <a class="dropdown-item" href="honeymoon.html">Honeymoon</a>
+                    <a class="dropdown-item" href="pilgrimage.html">Pilgrimage</a>
+                    <a class="dropdown-item" href="wellness.html">Wellness</a>
+                    <a class="dropdown-item" href="wedding.html">Wedding</a>
+                    <a class="dropdown-item" href="wildlife.html">Wildlife</a>
+                    <a class="dropdown-item" href="tel:9716933603">ETC.</a>
+
+                  </div>
+                </div>
+          </li>
+          
+          <li class="nav-item">
+          <a class="nav-link" href="services.html" style="color: white;">Services</a>
+          </li>
+
+          <li class="nav-item destinations">
+            <div class="dropdown show" style="">
+                <a class="btn btn-primary dropdown-toggle" href="destinations.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Destinations
+                </a>
+              
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                  <a class="dropdown-item" href="destinations.html#domestic">Domestic</a>
+                  <a class="dropdown-item" href="destinations.html#international">International</a>
+                  
+                </div>
+              </div>
+        </li>
+          
+        <li class="nav-item">
+          <a class="nav-link" href="abouts.html" style="color: white;">About us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html" style="color: white;">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tel:9310414141" style="color: white;">+91 - 9310414141</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<!--Navbar-end-->    
+
+<div class="images">
+    <img src="img/main-destination.png" class="img-fluid" alt="Responsive image" style="margin-top: 3rem;">
+</div>
+
+<button type="button" onclick="myFunctions()" class="btn-btn-primary" style="margin-left: auto; 
+  margin-right: auto; display: block; margin-top: 1rem; color: #68bef7; background-color: rgb(240, 240, 248);">
+     Dark mode </button>
+
+<!--TRVELLER THEMES PACKAGES START -->
+<div class="container">
+    <div class="card" style="background-color: transparent; border: transparent;">
+    <h2 style="margin-top: 2rem; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+      Our Travel Themes Packages and Blogs</h2>
+        <img src="img/line-border.svg" alt="" style="width: 20rem; height: 2rem; align-self: center; 
+        padding-top: rem; margin-top: 0rem;">
+
+        <h6 style="font-weight: normal; text-align: center; margin-top: 0rem;">“LIKE ALL GREAT TRAVELLERS, I HAVE SEEN MORE THAN I REMEMBER AND REMEMBER MORE 
+          THAN I HAVE SEEN.” <br> we need knowledge, health and inner 
+            peace respectively. As we know, health is a physical need whereas knowledge <br> is the psychological need of ours.
+             When we talk about inner peace, we see it refers to the spiritual need and <br> we feel harmonious only when all 
+             three are present. Yoga is something that feeds our soul. It is a spiritual <br> practice which relieves us of many ailments physically. 
+            Moreover, exercise can strengthen <br> our bodies and also sharpen our intellect and steady our emotions.</h6>
+    </div>
+    
+    <div class="card" style="background-color: transparent; border: transparent;">
+    <h2 style="margin-top: 2rem; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+     color: #06385a;" id="international">
+       International Destinations</h2>
+          </div>
+
+    <!--card start first row-->
+    <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="almaty.html"> <img class="card-img-top" src="img/almaty-1.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="almaty.html">Almaty</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="australia.html"> <img class="card-img-top" src="img/australia-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="australia.html">Australia</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="baku.html"> <img class="card-img-top" src="img/baku-1.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="baku.html">Baku, Azerbaijan</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+    <!--card end first row -->
+    
+    <!--card start second row-->
+    <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="bangok.html"> <img class="card-img-top" src="img/bangkok-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="bangok.html">Bangkok, Thailand</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="bhutan.html"> <img class="card-img-top" src="img/bhutan-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="bhutan.html">Bhutan</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="bishkek.html"> <img class="card-img-top" src="img/bishkek-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="bishkek.html">Bishkek, Kyrgyzstan</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+    <!--card end second row -->
+    
+    <!--card start third row-->
+    <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="dubai.html"> <img class="card-img-top" src="img/dubai-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="dubai.html">Dubai</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="egypt.html"> <img class="card-img-top" src="img/egypt-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="egypt.html">Egypt</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="fiji.html"> <img class="card-img-top" src="img/fiji-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="fiji.html">Fiji</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+    <!--card end third row -->
+    
+    <!--card start fourth row-->
+    <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="greece.html"> <img class="card-img-top" src="img/greece-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="greece.html">Greece</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="hongkong.html"> <img class="card-img-top" src="img/hongkong-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="hongkong.html">Hongkong Macau</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="israel.html"> <img class="card-img-top" src="img/israel-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="israel.html">Israel</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+   <!--card end fourth row --> 
+
+     <!--card start fifth row-->
+     <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="japan.html"> <img class="card-img-top" src="img/japan-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="japan.html">Japan</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="jordan.html"> <img class="card-img-top" src="img/jordan-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="jordan.html">Jordan</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="kenya.html"> <img class="card-img-top" src="img/kenya-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="kenya.html">Kenya</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+    <!--card end fifth row -->
+    
+    <!--card start six row-->
+    <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="malayasia.html"> <img class="card-img-top" src="img/malyasia-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="malayasia.html">Malayasia</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="mauritius.html"> <img class="card-img-top" src="img/mauritius-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="mauritius.html">Mauritius</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="newzeland.html"> <img class="card-img-top" src="img/newzeland-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="newzeland.html">New Zeland</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+    <!--card end six row -->
+    
+    <!--card start seven row-->
+    <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="philippines.html"> <img class="card-img-top" src="img/philli-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="philippines.html">Philippines</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="russia.html"> <img class="card-img-top" src="img/russia-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="russia.html">Rusia</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="singapore.html"> <img class="card-img-top" src="img/singapore-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="singapore.html">Singapore</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+    <!--card end seven row -->
+    
+    <!--card start eight row-->
+    <div class="card-deck" style="margin-top: 2rem; ">
+      
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="srilanka.html"> <img class="card-img-top" src="img/srilanka-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="srilanka.html">Srilanka</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="southafrica.html"> <img class="card-img-top" src="img/south-africa-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="southafrica.html">South Africa</a></h5>
+          </div>
+        </div>
+    
+        <div class="card" style="background-color: transparent; 
+        box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+         <a href="uzbekistan.html"> <img class="card-img-top" src="img/uzbekistan-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+          <div class="card-body" style="">
+            <h5 class="card-title" id="right"><a href="uzbekistan.html">Uzbekistan, Tashkent</a></h5>
+          </div>
+        </div>
+    
+    
+      </div>
+   <!--card end eight row -->
+
+   <!--card start nine row-->
+   <div class="card-deck" style="margin-top: 2rem; ">
+      
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+     <a href="ukraine.html"> <img class="card-img-top" src="img/ukraine-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title" id="right"><a href="ukraine.html">Ukraine</a></h5>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+     <a href="vietnam.html"> <img class="card-img-top" src="img/vietnam-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title" id="right"><a href="vietnam.html">Vietnam</a></h5>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+     <a href="europe.html"> <img class="card-img-top" src="img/europe-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title" id="right"><a href="europe.html">Europe</a></h5>
+      </div>
+    </div>
+
+
+  </div>
+  <!--card end nine row -->
+  
+  <!--card start ten row-->
+  <div class="card-deck" style="margin-top: 2rem; ">
+      
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+     <a href="bali.html"> <img class="card-img-top" src="img/bali-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title" id="right"><a href="bali.html">Bali</a></h5>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+     <a href="faroe.html"> <img class="card-img-top" src="img/faroe-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title" id="right"><a href="faroe.html">Faroe Islands</a></h5>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+     <a href="ireland.html"> <img class="card-img-top" src="img/ireland-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title" id="right"><a href="ireland.html">Ireland</a></h5>
+      </div>
+    </div>
+
+
+  </div>
+ <!--card end ten row -->
+
+ <!--button start-->
+ <a href="tel:+91 - 9310414141" class="btn btn-primary" style="width: 8rem; align-items: center; align-self: center; margin-left: auto; 
+ margin-right: auto; display: block; margin-top: 2rem;">Call Now</a>
+ <!--button-end-->
+
+    </div>
+
+    <!-- domestic card start-->
+    <div class="container">
+        
+        
+        <div class="card" style="background-color: transparent; border: transparent;">
+        <h2 style="margin-top: 2rem; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+        color: #06385a;" id="domestic">
+            Domestic Destinations </h2>
+              </div>
+    
+        <!--card start first row-->
+        <div class="card-deck" style="margin-top: 2rem; ">
+      
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="almaty.html"> <img class="card-img-top" src="img/andaman-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="andaman.html">Andaman Nicobar</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="goa.html"> <img class="card-img-top" src="img/goa-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="goa.html">Goa</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="sikkim.html"> <img class="card-img-top" src="img/sikkim-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="sikkim.html">Sikkim, Gangtok</a></h5>
+              </div>
+            </div>
+        
+        
+          </div>
+        <!--card end first row -->
+        
+        <!--card start second row-->
+        <div class="card-deck" style="margin-top: 2rem; ">
+      
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="golden.html"> <img class="card-img-top" src="img/golden-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="golden.html">Golden Triangle</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="gujarat.html"> <img class="card-img-top" src="img/gujarat-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="gujarat.html">Gujarat</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="kashmir.html"> <img class="card-img-top" src="img/kashmir-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="kashmir.html">Kashmir</a></h5>
+              </div>
+            </div>
+        
+        
+          </div>
+        <!--card end second row -->
+
+        <!--card start third row-->
+        <div class="card-deck" style="margin-top: 2rem; ">
+      
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="kerala.html"> <img class="card-img-top" src="img/kerala-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="kerala.html">Kerala</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="leh.html"> <img class="card-img-top" src="img/leh-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="leh.html">Leh Ladakh</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="himachal.html"> <img class="card-img-top" src="img/himachal-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="himachal.html">Himachal Pardesh</a></h5>
+              </div>
+            </div>
+        
+        
+          </div>
+        <!--card end third row -->
+        
+        <!--card start fourth row-->
+        <div class="card-deck" style="margin-top: 2rem; ">
+      
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="uttrakhand.html"> <img class="card-img-top" src="img/uttrakhand-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="uttrakhand.html">Uttarakhand</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="rajasthan.html"> <img class="card-img-top" src="img/rajasthan-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="rajasthan.html">Rajasthan</a></h5>
+              </div>
+            </div>
+        
+            <div class="card" style="background-color: transparent; 
+            box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+             <a href="lakshdeep.html"> <img class="card-img-top" src="img/lakshdweep-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" ></a><!--image size 293*180-->
+              <div class="card-body" style="">
+                <h5 class="card-title" id="right"><a href="lakshdeep.html">Lakshadweep</a></h5>
+              </div>
+            </div>
+        
+        
+          </div>
+        <!--card end fourth row -->
+
+        <!--button start-->
+        <a href="tel:+91 - 9310414141" class="btn btn-primary" style="width: 8rem; align-items: center; align-self: center; margin-left: auto; 
+        margin-right: auto; display: block; margin-top: 2rem;">Call Now</a>
+        <!--button-end-->
+
+  </div>
+    <!--domestic card end -->
+
+    <!--TRVELLER THEMES PACKAGES END -->
+
+<!--Our-footer-start-->
+
+        <!-- Footer -->
+        <div class="our-own-color" style="background-color: rgba(51, 51, 51, 0.952); margin-top: 2rem;">
+          <footer class="page-footer font-small mdb-color pt-4">
+
+              <!-- Footer Links -->
+              <div class="container text-center text-md-left">
+
+                  <!-- Footer links -->
+                  <div class="row text-center text-md-left mt-3 pb-3">
+
+                      <!-- Grid column -->
+                      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        
+                          <h6 class="text-uppercase mb-4 font-weight-bold" style="color:rgb(15, 200, 247)">JaiShree Holidays</h6>
+                          <img src="img/company-logo.svg" style="width: 7rem; height:7rem;" alt="">
+                          <p style="font-weight: bolder; color:snow"> Jai Shree Tours and Travels Pvt Ltd </p>
+                          
+                          <h6 style="color:rgb(15, 200, 247)">Company Details</h6>
+                          <p style="text-align: center; text-align: left; color:snow">
+                              Jai shree holidays is indias leading inbound and outbound travel solution company.<br><br>
+                              We can provide best domestic and international tours with 100% 
+                              customer satisfaction. <br> <br>
+                              We plan your tours to fit your budget.
+                          </p>
+                          
+                      </div>
+                      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold" style="color:rgb(15, 200, 247)">Useful links</h6>
+                          <p>
+                              <a href="index.html" style="color: teal;"> <strong>Home</strong> </a>
+                          </p>
+                          <p>
+                              <a href="themes.html" style="color: teal;"><strong>Themes</strong></a>
+                          </p>
+                          <p>
+                              <a href="services.html" style="color: teal;"><strong>Services</strong></a>
+                          </p>
+                          <p>
+                              <a href="destinations.html" style="color: teal;"><strong>Destinations</strong></a>
+                          </p>
+                          <p>
+                            <a href="abouts.html" style="color: teal;"><strong>About us</strong></a>
+                        </p>
+                        <p>
+                          <a href="contacts.html" style="color: teal;"><strong>Contact us</strong></a>
+                      </p>
+                      </div>
+
+                      <!-- Grid column -->
+                      <hr class="w-100 clearfix d-md-none">
+
+                      <!-- Grid column -->
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold" style="color:rgb(15, 200, 247)">Contact</h6>
+
+                          <p style="color: snow;">
+                              <i class="fa fa-map-marker mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i>14, DDA Market, A Block Sarswati Vihar, 
+                              Pitampura, Delhi-110034, India
+                            </p> 
+                  
+                                <p style="color: snow;"> <i class="fa fa-envelope mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i> info@jaishreeholidays.com, 
+                                  jaishreeholidays@gmail.com, jaishreeholidays@hotmail.com</p>
+
+                          <p style="color: snow;">
+                          <i class="fa fa-mobile mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i></i> +91 - 9310414141</p>
+
+                          <p style="color: snow;">
+                            <i class="fa fa-whatsapp mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i></i>  8586051657, 8586051658, 8586051659 </p>
+                         
+                            <p style="color: snow;">
+                              <i class="fa fa-volume-control-phone mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i> +91 - 11 - 27021659, 27021660 </p>
+
+                              <p style="color: snow;">
+                                <i class="fa fa-fax mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i> +91 - 11 - 47553742 </p>
+
+                      </div>
+                      <!-- Grid column -->
+
+                  </div>
+                  <!-- Footer links -->
+
+                  <hr>
+
+                  <!-- Grid row -->
+                  <div class="row d-flex align-items-center">
+
+                      <!-- Grid column -->
+                      <div class="col-md-7 col-lg-8">
+
+                          <!--Copyright-->
+                          <p class="text-center text-md-left" style="color: snow;">© 2020 Copyright:
+                              <a href="http://www.jaishreeholidays.com/">
+                                  <strong>jaishreeholidays.com</strong>
+                              </a>
+                          </p>
+
+                      </div>
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                          <!-- Social buttons -->
+                          <div class="text-center text-md-right">
+                              <ul class="list-unstyled list-inline">
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://www.facebook.com/atoz.pccare.5" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7">
+                                          <i class="fa fa-facebook-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://twitter.com/a2zpccare1" class="btn-floating btn-sm rgba-white-slight mx-1" style="color:#68bef7">
+                                          <i class="fa fa-twitter-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://www.instagram.com/a2zpccare/" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7">
+                                          <i class="fa fa-instagram fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://in.pinterest.com/azpccares/" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7;">
+                                          <i class="fa fa-pinterest-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://www.tumblr.com/dashboard" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7;">
+                                          <i class="fa fa-tumblr-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                 
+                              </ul>
+                          </div>
+
+                      </div>
+                      <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+
+              </div>
+              <!-- Footer Links -->
+
+          </footer>
+      </div>
+      <!-- Footer -->
+      
+<!--Our-footer-end-->
+  
+  
+   <!--bootstrap-js-online-->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+   integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+   crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+   integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+   integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+   crossorigin="anonymous"></script>
+  <!--bootstrap-js-online-end-->        
+</body>
+</html>

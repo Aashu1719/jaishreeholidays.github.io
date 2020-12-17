@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Site</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--bootstrap-css-online-end-->
+    
+    <!--favicon-fontawsom-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--favicon-fontawsom-end-->
+
+    <!--offline-style-sheet-->
+    <link href="style.css" rel="stylesheet">
+    <!--offline-style-sheet-end-->
+    <link rel="stylesheet" href="script.js">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icon.ico"/>
+</head>
+
+<style>
+  body {
+    
+    background-color: white;
+    color: black;
+  
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
+  </style>
+
+<body>
+
+  <script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
+<!--Navbar-start-->
+    
+<div class="navs" style="">
+  <nav class="navbar navbar-expand-lg fixed-top" style="background-color:rgb(40, 109, 213)">
+      <a class="navbar-brand" href="index.html#home"> <img src="img/company-logo-3.svg"
+          style="width: 2rem; height: 2rem; color:;" alt=""> <span style="color: white;">Jai Shree Holidays</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+          <i class="fa fa-bars fa-2x" aria-hidden="true" style="color: aliceblue;"></i>
+      </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item active">
+          <a class="nav-link" href="index.html" style="color: white;">Home<span class="sr-only">(current)</span></a>
+          </li>
+
+          
+          <li class="nav-item">
+          <a class="nav-link" href="services.html" style="color: white;">Services</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="themes.html" style="color: white;">Themes</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="destinations.html" style="color: white;">Destinations</a>
+              </li>
+          
+          
+        <li class="nav-item">
+          <a class="nav-link" href="abouts.html" style="color: white;">About us</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="contacts.html" style="color: white;">Contact us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tel:9310414141" style="color: white;">+91 - 9310414141</a>
+        </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+<!--Navbar-end--> 
+
+  
+  <!--header image start-->
+  <div class="images">
+    <img src="img/travle-head.png" class="img-fluid" alt="Responsive image" style="margin-top: 3rem;">
+  </div>
+
+  <!--card-start-->
+<div class="set-color" style="padding-top: 0.5rem;">
+  <div class="container-fluid" style="padding-bottom: 0.0rem; ;">
+      <div class="row-mb-3">
+         
+
+
+
+
+          <div class="card-deck">  
+
+              <div class="card"
+                  style="background-color: rgb(91, 169, 241); border-color: seashell;">
+
+                  <img class="card-img-top" src="img/head-card-mission.svg" alt="Card image cap" 
+                  style="align-items: center; align-self: center; padding-top: 0.5rem; width: 10rem; height: 7rem;">
+                  
+                  <div class="card-body">
+                      <h4 style="color: rgb(242, 244, 248); align-items: center;">Our Mission</h4>
+                      <p class="card-text" style="color: white;">
+                        We can make a Beautiful trip for your vaccation with the help of your Satisfaction and Happiness.
+                      </p>
+                  </div>
+              </div>
+          
+
+
+
+          
+              <div class="card"
+                  style="background-color: rgb(91, 169, 241); border-color: seashell;">
+
+                  <img class="card-img-top" src="img/head-card-plan.svg" alt="Card image cap" style="
+                  align-items: center; align-self: center; padding-top: 0.5rem; width: 10rem; height: 7rem;">
+                  
+                  <div class="card-body">
+                      <h4 style="color: rgb(242, 244, 248); align-items: center;">Our Plan</h4>
+                      <p class="card-text" style="color: white;">Join us with Your Full Satisfaction and Happiness.
+                          </p>
+                  </div>
+              </div>
+          
+
+
+
+          
+              <div class="card"
+                  style="background-color: rgb(91, 169, 241); border-color: seashell;">
+
+                  <img class="card-img-top" src="img/head-card-vision.svg" alt="Card image cap" style="
+                  align-items: center; align-self: center; padding-top: 0.5rem; width: 10rem; height: 7rem;">
+                  
+                  <div class="card-body">
+                      <h4 style="color: rgb(242, 244, 248); align-items: center;">Our Vission</h4>
+                      <p class="card-text" style="color: white;">Our Vision is 100% customer satisfaction.
+                          </p>
+                  </div>
+              </div>
+          
+          </div>
+      </div>
+  </div>
+
+</div>
+<!--Card-end-->
+
+  <button type="button" onclick="myFunction()" class="btn-btn-primary" style="margin-left: auto; 
+  margin-right: auto; display: block; margin-top: 0.5rem; color: #68bef7; background-color: rgb(240, 240, 248);">
+    Toggle dark mode</button>
+
+  <div class="images">
+    <img src="img/travel-1.svg" class="img-fluid " alt="Responsive image" style="margin-top: 1.5rem;">
+  </div>
+
+<!--header image end-->
+
+<!--TRVELLER THEMES PACKAGES START -->
+<div class="container">
+
+<div class="card" style="background-color: transparent; border: transparent;">
+<h2 style="margin-top: 2rem; text-align: center; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+  Our Travel Themes Packages and Blogs</h2>
+    <img src="img/line-border.svg" alt="" style="width: 20rem; height: 20rem; align-self: center; 
+    padding-top: rem; margin-top: -9rem;">
+    <h6 style="font-weight: normal; text-align: center; margin-top: -7rem;">“LIKE ALL GREAT TRAVELLERS, I HAVE SEEN MORE THAN I REMEMBER 
+      AND REMEMBER MORE THAN I HAVE SEEN.” <br> If you’ve got an idea of which style of trip will suit you best, take a look at our different 
+      trip themes below, as there’s something to suit everyone. Whether you’re chasing a 
+      global gastronomic dream or wanting to ride your bike to Basecamp, Intrepid has a themed adventure that's perfect for you.</h6>
+</div>
+
+<!--card start first row-->
+<div class="card-deck" style="margin-top: 2rem; ">
+  
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+      <img class="card-img-top" src="img/adventure-2.png" alt="Card image cap" style="padding-top: 0rem;" ><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">Adventure Tourism</h5>
+        <p class="card-text" style="text-align: justify;">Adventure tourism, in general, is defined as the type of tourism that encourages 
+          an individual to come out of his/her comfort zone by engaging in thrilling physical, natural or cultural activities..</p>
+         <a href="adventure.html"><button type="button" class="btn btn-primary"> Read more... </button></a>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384);  ">
+      <img class="card-img-top" src="img/Pilgrimage-Tourism.png" alt="Card image cap" style="padding-top: 0rem;" ><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">Pilgrimage Tourism</h5>
+        <p class="card-text" style="text-align: justify;">The major reason that attracts tourists to India is the traditional temple architecture, 
+          art forms and rituals performed. Varanasi is the major hub for all the devotees to explore the Hindu history and rituals.</p>
+          <a href="pilgrimage.html"><button type="button" class="btn btn-primary"> Read more... </button></a>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+      <img class="card-img-top" src="img/Eco-Tourism.png" alt="Card image cap" style="padding-top: 0rem;" ><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">Eco Tourism</h5>
+        <p class="card-text" style="text-align: justify;">Eco tourism has now become one of the most fascinating travel 
+          forms that has emerged these days. Eco tourism allows the tourist to experience the wonders and beauty of the underdeveloped..</p>
+          <a href="eco.html"><button type="button" class="btn btn-primary"> Read more... </button></a>
+      </div>
+      </div>
+
+
+  </div>
+<!--card end first row -->
+
+<!--card start second row-->
+<div class="card-deck" style="margin-top: 2rem;">
+
+ <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+      <img class="card-img-top" src="img/Cruise-Tourism.png" alt="Card image cap" style="padding-top: 0rem;" ><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">Cruise Tourism</h5>
+        <p class="card-text" style="text-align: justify;">So do you wish to escape from the bustling city boulevards to relaxed waterways? 
+          Cruise tourism is one of the fastest and dynamically growing sector of the tourism industry in India..</p>
+           <a href="cruise.html"><button type="button" class="btn btn-primary"> Read more... </button></a>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+      <img class="card-img-top" src="img/Family-Tourism.png" alt="Card image cap" style="padding-top: 0rem;" ><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">Family Tourism</h5>
+        <p class="card-text" style="text-align: justify;">Spending time with family is always the best feeling. And nothing can be better
+           if that family trip destination is one of the places in India.
+          The family tourism in India offers all kind of activities..</p>
+           <a href="family.html"><button type="button" class="btn btn-primary"> Read more... </button></a>
+      </div>
+    </div>
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384);">
+      <img class="card-img-top" src="img/Wellness-Tourism.png" alt="Card image cap" style="padding-top: 0rem;" ><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">Wellness Tourism</h5>
+        <p class="card-text" style="text-align: justify;">Renowned as the cradle of medical science like Ayurveda, 
+          Yoga, Naturopathy, India has a philosophy of healing the patient with the natural ways The wellness tourism 
+          in India offers a host of..</p>
+           <a href="wellness.html"><button type="button" class="btn btn-primary"> Read more... </button></a>
+      </div>
+    </div>
+    
+</div>
+
+<a href="themes.html" class="btn btn-primary" style="width: 8rem; align-items: center; align-self: center; margin-left: auto; 
+margin-right: auto; display: block; margin-top: 2rem;">More Themes</a> <!--middle centre main button--> 
+
+</div>
+<!--card end second row -->
+<!--TRVELLER THEMES PACKAGES END -->
+
+<!--video start-->
+<div class="video" style="margin-top: 1rem;">
+  <video id="video" width="100%" height="10%" controls>
+      <source src="img/123.mp4" type="video/mp4" />
+  </video>
+</div>
+<!--video end-->
+
+<!--travel tips start-->
+<!--gallery start-->
+<div class="container-fluid">
+
+  <!--heading start-->
+<div class="card" style="align-self: center; background-color: transparent; border-color: transparent; margin-top: 4rem;">
+  <h1 style="text-align: center; color: rgb(5, 75, 75); font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    Travel Tips and Tricks</h1>
+    <img src="img/line-border.svg" alt="" style="width: 20rem; height: 2rem; align-self: center; 
+      padding-top: rem; margin-top: 0rem;">
+</div>
+<!--heading end-->
+<div class="background-images" style="background-image: url('img/line-draw-t3.png');">
+  
+
+<!-- first cards start-->
+<div class="card-deck" style="margin-top: 0rem;">
+
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/camera-1.svg" alt="Card image cap" style="align-items: center; align-self: center;">
+    <div class="card-body">
+      <h5 style="text-align: center;">Take a good camera</h5>
+      <p class="card-text" style="text-align: justify;">Your photos will be some of your best memories, 
+        so invest in a good camera. And, of course, take the time to understand how it works before you leave.</a> </p>
+    </div>
+  </div>
+
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/first-aid.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Carry a basic first-aid kit</h5>
+      <p class="card-text" style="text-align: justify;">Accidents happen so be prepared. I take band-aids, antibacterial cream,
+         and ointments for minor cuts and scrapes. </p>
+    </div>
+  </div>
+
+ <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+  <img class="card-img-top" src="img/travel-insurance.svg" alt="Card image cap">
+  <div class="card-body">
+    <h5 style="text-align: center;">Get travel insurance</h5>
+    <p class="card-text" style="text-align: justify;">Travel insurance is the most important thing you get that you never want to use.
+       If something goes wrong, you don’t want to be out thousands of dollars in bills. </p>
+  </div>
+</div>
+ 
+<div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+  <img class="card-img-top" src="img/map.svg" alt="Card image cap">
+  <div class="card-body">
+    <h5 style="text-align: center;">Don’t be afraid to use a map</h5>
+    <p class="card-text" style="text-align: justify;">Looking like a tourist isn’t as bad as getting really lost and ending up in the 
+      wrong neighborhood.
+       Don’t be afraid to use a map or ask for directions and look like a tourist.</p>
+  </div>
+</div>
+
+
+</div>
+<!--first card end -->
+
+<!--second card start-->
+<div class="card-deck" style="margin-top: 0rem;">
+
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/travel-alone.svg" alt="Card image cap" style="align-items: center; align-self: center;">
+    <div class="card-body">
+      <h5 style="text-align: center;">Travel by yourself at least once</h5>
+      <p class="card-text" style="text-align: justify;">You’ll learn a lot about yourself and how to become independent.
+         Traveling solo taught me how to fend for myself. </p>
+    </div>
+  </div>
+  
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/be-respectful.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Be respectful</h5>
+      <p class="card-text" style="text-align: justify;">Locals are willing to help you out, but there’s probably a language barrier,
+         so keep your cool when something doesn’t go your way.  </p>
+    </div>
+  </div>
+  
+  
+   <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/lock.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Always carry a lock</h5>
+      <p class="card-text" style="text-align: justify;">They come in handy, especially when you stay in dorms and need to lock your stuff up. </p>
+    </div>
+  </div>
+   
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/backpack.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Buy a small backpack/suitcase</h5>
+      <p class="card-text" style="text-align: justify;">By purchasing a small backpack, you will be forced you to pack light and avoid carrying too much stuff.</p>
+    </div>
+  </div>
+  
+</div>
+<!--second card end-->
+
+<!--third card start-->
+<div class="card-deck" style="margin-top: 0rem;">
+
+<div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/overplan.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Eat street food!</h5>
+      <p class="card-text" style="text-align: justify;"> If you skip the street food, you miss out on culture. Don’t be scared. If you’re nervous,
+         look for places where kids are eating. If it’s safe for them, it’s safe for you</p>
+    </div>
+  </div>
+ 
+  <<div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/tourism-office.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Always visit the tourism office</h5>
+      <p class="card-text" style="text-align: justify;">They know about everything going on in town. They can point you to free activities,
+        special events happening during your stay, and everything in between.</p>
+    </div>
+  </div>
+  
+   <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/new-food.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Try new food</h5>
+      <p class="card-text" style="text-align: justify;">Don’t ask what it is. Just put it in your mouth and see if you like it.
+         If you put your guard up, you might miss out on some unusual and delicious local cuisine. </p>
+    </div>
+  </div>
+   
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/cash.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Carry emergency cash</h5>
+      <p class="card-text" style="text-align: justify;">Because emergencies happen. Like that time in Romania when I couldn’t find an
+         ATM and needed money for the bus to the hostel! </p>
+    </div>
+  </div>
+  
+</div>
+<!--third card end-->
+
+<!--fourth card start-->
+<div class="card-deck" style="margin-top: 0rem;">
+
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/passport-documents.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Make extra copies of your passport and important documents</h5>
+      <p class="card-text" style="text-align: justify;">Don’t forget to e-mail a copy to yourself too. You never know when 
+        you might need to have some sort of documentation with you and might not want to carry your original.</p>
+    </div>
+  </div>
+  
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+     <img class="card-img-top" src="img/comfort-zone.svg" alt="Card image cap">
+     <div class="card-body">
+       <h5 style="text-align: center;">Have a health checkup before you leave</h5>
+       <p class="card-text" style="text-align: justify;">
+        Visit your doctor and dentist for a checkup before you leave. The last thing you want to happen is 
+        for you to set off and discover new things.</a> </p>
+     </div>
+   </div>
+  
+   <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/new-language.svg" alt="Card image cap" style="align-items: center; align-self: center;">
+    <div class="card-body">
+      <h5 style="text-align: center;">Learn basic phrases in the native language of your destination</h5>
+      <p class="card-text" style="text-align: justify;">The locals will appreciate it and it will make your interactions easier. You don’t need to
+         master the language but learning a few things like “Hello,” “Goodbye,” “Thank you!”. </p>
+    </div>
+  </div>
+   
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/overplan.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Don’t overplan your trip</h5>
+      <p class="card-text" style="text-align: justify;">Looking like a tourist isn’t as bad as getting really lost and ending
+         up in the wrong neighborhood.
+         Don’t be afraid to use a map or ask for directions and look like a tourist. </p>
+    </div>
+  </div>
+  
+</div>
+
+</div>
+<!--fourth card end-->
+
+<!--gallery end-->
+<!--travel tips end-->
+
+
+<!--Destinations start-->
+<div class="container">
+  <div class="card" style="align-self: center; text-align: center; margin-top: 2rem; border-radius: 1rem;
+  width: 100%; background-color: rgba(245, 248, 248, 0.486)">
+      <div class="card-body">
+        <h4 class="card-title"><span style="font-weight: bolder; color: teal;">DESTINATONS</span></h4>
+        <img src="img/line-border.svg"  style="padding-top: 0rem;">
+        <p class="card-text">“LIKE ALL GREAT TRAVELLERS, I HAVE SEEN MORE THAN I REMEMBER AND REMEMBER MORE THAN I HAVE SEEN.”<br>
+          we need knowledge, health and inner peace respectively. As we know, health is a physical need whereas knowledge
+          is the psychological need of ours. When we talk about inner peace, we see it refers to the spiritual need and
+          we feel harmonious only when all three are present. Yoga is something that feeds our soul. It is a spiritual
+          practice which relieves us of many ailments physically. Moreover, exercise can strengthen
+          our bodies and also sharpen our intellect and steady our emotions. Ready to discover a new world with your perfect plans.
+          </p>
+  
+        <p class="card-text"><small class="text-muted"> Welcome to our travel destination section where you’ll find lots of holiday ideas
+          and inspiration for your next trip. Here you’ll find all the countries we have articles for as well as different
+           ways to find what you’re looking for.</small></p>
+
+        <a href="tel:9716933603"> <button type="button" class="btn btn-primary">Call Now</button></a>
+      </div>
+      <img class="card-img-bottom" src="img/main-destination-2.png
+      " alt="Card image cap" style="width: 50%; height: 80%;
+       align-self: center; border-radius: 1rem;">
+    </div>
+  </div>
+<!--cards for destination start-->
+  <!--first row-->
+  <div class="destinations" style="align-items: center;">
+
+  <div class="card-deck" style="margin-top: 2rem; ">
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/bangkok-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="bangok.html">Bangkok, Thailand</a> </h5>
+      </div>
+    </div>
+ 
+
+ 
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/andaman-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="andaman.html">Andaman & Nicobar</a> </h5>
+      </div>
+    </div>
+
+    
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/dubai-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="dubai.html">Dubai</a> </h5>
+      </div>
+    </div>
+      
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/goa-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="goa.html">Goa</a> </h5>
+      </div>
+    </div>
+      
+      
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/fiji-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="fiji.html">Fiji</a> </h5>
+      </div>
+    </div>
+
+    </div>
+  <!--end first row-->
+
+  <!--Start second row-->
+  <div class="card-deck" style="margin-top: 2rem; ">
+
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/kerala-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="kerala.html">Kerala</a> </h5>
+      </div>
+    </div>
+ 
+
+ 
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/singapore-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="singapore.html">Singapor</a> </h5>
+      </div>
+    </div>
+
+    
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/leh-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="leh.html">Leh & Ladakh</a> </h5>
+      </div>
+    </div>
+      
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/bali-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="bali.html">Bali</a> </h5>
+      </div>
+    </div>
+      
+      
+    <div class="card" style="background-color: transparent; 
+    box-shadow: 0 4px 8px 0 rgba(240, 191, 30, 0.459), 0 6px 20px 0 rgba(129, 229, 247, 0.384); ">
+   <a href="#">   <img class="card-img-top" src="img/rajasthan-comp-2.png" alt="Card image cap" style="padding-top: 0rem;" > </a><!--image size 293*180-->
+      <div class="card-body" style="">
+        <h5 class="card-title">  <a href="rajasthan.html">Rajasthan</a> </h5>
+      </div>
+    </div>
+
+    </div>
+  <!--End second row-->
+
+    <a href="destinations.html"> <button type="button" class="btn btn-primary" style="align-items: center; align-self: center; margin-left: auto; 
+    margin-right: auto; display: block; margin-top: 2rem;">More Destinations</button></a>
+    </div>
+
+  <!--cards for destination end-->
+  <!--Destination end-->
+
+  <!--Our Services Start-->
+
+  <!--heading for Services start-->
+  <div class="card" style="align-self: center; background-color: transparent; border-color: transparent; margin-top: 3rem;">
+    <h1 style="text-align: center; color: rgb(5, 75, 75); font-weight: bolder; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      Our Services</h1>
+      <img src="img/line-border.svg" alt="" style="width: 20rem; height: 2rem; align-self: center; 
+        padding-top: rem; margin-top: 0rem;">
+  </div>
+  <!--heading for services end-->
+
+  <!--first row start-->
+  <div class="card-deck" style="margin-top: 0rem;">
+
+    <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+      <img class="card-img-top" src="img/passport-documents.svg" alt="Card image cap">
+      <div class="card-body">
+        <h5 style="text-align: center;">Passport and Visa</h5>
+        <p class="card-text" style="text-align: justify;">The main difference between a visa and a passport is that a visa is 
+          an endorsement placed within a passport that grants the holder official permission to enter, <a href="services.html#visa">Read More...</a> </p>
+      </div>
+    </div>
+  
+    <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+      <img class="card-img-top" src="img/flight-ticets.svg" alt="Card image cap">
+      <div class="card-body">
+        <h5 style="text-align: center;">Flight Ticketing</h5>
+        <p class="card-text" style="text-align: justify;">Jaishree Holidays & Tours(P)Ltd. offers B2B travel agency where travel agent 
+          can book instant and convenient online air tickets for domestic and <a href="services.html#flight">Read More...</a> </p>
+      </div>
+    </div>
+  
+   <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/forex.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Forex</h5>
+      <p class="card-text" style="text-align: justify;">Currency Notes are required when it comes to paying for local transport or at 
+        shops where cards are not accepted. We, at <a href="services.html#forex">Read More...</a> </p>
+    </div>
+  </div>
+  
+  </div>
+<!--first row end-->
+
+<!--second raw start-->
+<div class="card-deck" style="margin-top: 0rem;">
+
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/hotel-booking.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Hotel Bookings</h5>
+      <p class="card-text" style="text-align: justify;">Jaishree Holidays & Tours(P)Ltd. provides the facility of Hotel Bookings in various
+         cities of India. We will be happy to make the requisite arrangements<a href="services.html#hotel">Read More...</a> </p>
+    </div>
+  </div>
+
+  <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+    <img class="card-img-top" src="img/tour-packages.svg" alt="Card image cap">
+    <div class="card-body">
+      <h5 style="text-align: center;">Tour Packages</h5>
+      <p class="card-text" style="text-align: justify;">Jaishree Holidays & Tours(P)Ltd., Indias leading online travel company, has a 
+        profound understanding of Indian consumers travel <a href="services.html#tour">Read More...</a> </p>
+    </div>
+  </div>
+
+ <div class="card" style=" margin-top: -0rem; background-color: transparent; border: transparent;">
+  <img class="card-img-top" src="img/transport.svg" alt="Card image cap">
+  <div class="card-body">
+    <h5 style="text-align: center;">Transportations</h5>
+    <p class="card-text" style="text-align: justify;">Jaishree Holidays & Tours Pvt Ltd offer you Transport Services like Car Bookings,
+       Bus Bookings, Flight Bookings and etc, Here we give <a href="services.html#transport">Read More...</a> </p>
+  </div>
+</div>
+
+</div>
+<!--second raw end-->
+</div>
+<!--Our Services End-->
+
+<!--Our-footer-start-->
+
+        <!-- Footer -->
+        <div class="our-own-color" style="background-color: rgba(51, 51, 51, 0.952); margin-top: 2rem;">
+          <footer class="page-footer font-small mdb-color pt-4">
+
+              <!-- Footer Links -->
+              <div class="container text-center text-md-left">
+
+                  <!-- Footer links -->
+                  <div class="row text-center text-md-left mt-3 pb-3">
+
+                      <!-- Grid column -->
+                      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                        
+                          <h6 class="text-uppercase mb-4 font-weight-bold" style="color:rgb(15, 200, 247)">JaiShree Holidays</h6>
+                          <img src="img/company-logo.svg" style="width: 7rem; height:7rem;" alt="">
+                          <p style="font-weight: bolder; color:snow"> Jai Shree Tours and Travels Pvt Ltd </p>
+                          
+                          <h6 style="color:rgb(15, 200, 247)">Company Details</h6>
+                          <p style="text-align: center; text-align: left; color:snow">
+                              Jai shree holidays is indias leading inbound and outbound travel solution company.<br><br>
+                              We can provide best domestic and international tours with 100% 
+                              customer satisfaction. <br> <br>
+                              We plan your tours to fit your budget.
+                          </p>
+                          
+                      </div>
+                      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold" style="color:rgb(15, 200, 247)">Useful links</h6>
+                          <p>
+                              <a href="index.html" style="color: teal;"> <strong>Home</strong> </a>
+                          </p>
+                          <p>
+                              <a href="themes.html" style="color: teal;"><strong>Themes</strong></a>
+                          </p>
+                          <p>
+                              <a href="services.html" style="color: teal;"><strong>Services</strong></a>
+                          </p>
+                          <p>
+                              <a href="destinations.html" style="color: teal;"><strong>Destinations</strong></a>
+                          </p>
+                          <p>
+                            <a href="abouts.html" style="color: teal;"><strong>About us</strong></a>
+                        </p>
+                        <p>
+                          <a href="contacts.html" style="color: teal;"><strong>Contact us</strong></a>
+                      </p>
+                      </div>
+
+                      <!-- Grid column -->
+                      <hr class="w-100 clearfix d-md-none">
+
+                      <!-- Grid column -->
+                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                          <h6 class="text-uppercase mb-4 font-weight-bold" style="color:rgb(15, 200, 247)">Contact</h6>
+
+                          <p style="color: snow;">
+                              <i class="fa fa-map-marker mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i>14, DDA Market, A Block Sarswati Vihar, 
+                              Pitampura, Delhi-110034, India
+                            </p> 
+                  
+                                <p style="color: snow;"> <i class="fa fa-envelope mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i> info@jaishreeholidays.com, 
+                                  jaishreeholidays@gmail.com, jaishreeholidays@hotmail.com</p>
+
+                          <p style="color: snow;">
+                          <i class="fa fa-mobile mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i></i> +91 - 9310414141</p>
+
+                          <p style="color: snow;">
+                            <i class="fa fa-whatsapp mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i></i>  8586051657, 8586051658, 8586051659 </p>
+                         
+                            <p style="color: snow;">
+                              <i class="fa fa-volume-control-phone mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i> +91 - 11 - 27021659, 27021660 </p>
+
+                              <p style="color: snow;">
+                                <i class="fa fa-fax mr-3" aria-hidden="true" style="color:rgb(15, 200, 247)"></i> +91 - 11 - 47553742 </p>
+
+                      </div>
+                      <!-- Grid column -->
+
+                  </div>
+                  <!-- Footer links -->
+
+                  <hr>
+
+                  <!-- Grid row -->
+                  <div class="row d-flex align-items-center">
+
+                      <!-- Grid column -->
+                      <div class="col-md-7 col-lg-8">
+
+                          <!--Copyright-->
+                          <p class="text-center text-md-left" style="color: snow;">© 2020 Copyright:
+                              <a href="http://www.jaishreeholidays.com/">
+                                  <strong>jaishreeholidays.com</strong>
+                              </a>
+                          </p>
+
+                      </div>
+                      <!-- Grid column -->
+
+                      <!-- Grid column -->
+                      <div class="col-md-5 col-lg-4 ml-lg-0">
+
+                          <!-- Social buttons -->
+                          <div class="text-center text-md-right">
+                              <ul class="list-unstyled list-inline">
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://www.facebook.com/atoz.pccare.5" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7">
+                                          <i class="fa fa-facebook-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://twitter.com/a2zpccare1" class="btn-floating btn-sm rgba-white-slight mx-1" style="color:#68bef7">
+                                          <i class="fa fa-twitter-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://www.instagram.com/a2zpccare/" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7">
+                                          <i class="fa fa-instagram fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://in.pinterest.com/azpccares/" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7;">
+                                          <i class="fa fa-pinterest-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                  <li class="list-inline-item">
+
+                                      <a href="https://www.tumblr.com/dashboard" class="btn-floating btn-sm rgba-white-slight mx-1" 
+                                      style="color:#68bef7;">
+                                          <i class="fa fa-tumblr-square fa-2x"></i>
+                                      </a>
+
+                                  </li>
+
+                                 
+                              </ul>
+                          </div>
+
+                      </div>
+                      <!-- Grid column -->
+
+                  </div>
+                  <!-- Grid row -->
+
+              </div>
+              <!-- Footer Links -->
+
+          </footer>
+      </div>
+      <!-- Footer -->
+      
+<!--Our-footer-end-->
+
+
+ <!--bootstrap-js-online-->
+ <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+ integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+ crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+ integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+ crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+ integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+ crossorigin="anonymous"></script>
+<!--bootstrap-js-online-end-->    
+</body>
+</html>
